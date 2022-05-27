@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+
+  <!-- BOXICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>機械錶工藝坊：機械錶裝嵌課程</title>
+</head>
+<body>
+  <!-- HEADER -->
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <i class='bx bxs-watch nav__logo-icon'></i> 機械錶工藝坊
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="course_1.html" class="nav__link active-link">入門班</a>
+          </li>
+          <li class="nav__item">
+            <a href="course_2.html" class="nav__link">進階班</a>
+          </li>
+          <li class="nav__item">
+            <a href="course_3.html" class="nav__link">專業班</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x' ></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-grid-alt' ></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CART -->
+  <div class="cart" id="cart">
+    <i class='bx bx-x cart__close' id="cart-close"></i>
+
+    <h3 class="cart__title-center">報名「入門班：基本機械機芯」</h3>
+
+    <div class="cart__container">
+
+      <form class="cart__form" action="">
+
+        <div class="cart__form__column">
+          <div class="cart__form__row">
+            <div class="cart__form__title">名字</div>
+            <input class="cart__form__input" type="text" id="fname" name="fname">
+          </div>
+          <div class="cart__form__row">
+            <div class="cart__form__title">姓氏</div>
+            <input class="cart__form__input" type="text" id="lname" name="lname">
+          </div>
+        </div>
+
+        <div class="cart__form__title">稱謂</div>
+        <div class="cart__form__radio">
+          <label for="mr">
+            <input type="radio" id="mr" name="title" value="mr"> 先生
+          </label>
+
+          <label for="ms">
+            <input type="radio" id="ms" name="title" value="ms"> 小姐 / 女士
+          </label>
+
+          <label for="other">
+            <input type="radio" id="other" name="title" value="other"> 其他
+          </label>
+        </div>
+        
+        <div class="cart__form__row">
+          <div class="cart__form__title">電子郵件</div>
+          <input class="cart__form__input" type="email" id="mail" name="mail">
+        </div>
+
+        <div class="cart__form__row">
+          <div class="cart__form__title">聯絡電話</div>
+          <input class="cart__form__input" type="phone" id="phone" name="phone">
+        </div>
+
+        <div class="cart__form__title">報名人數</div>
+        <div class="cart__amount-content">
+          <span class="cart__amount-box">
+            <i class='bx bx-minus' ></i>
+          </span>
+
+          <span class="cart__amount-number">1</span>
+
+          <span class="cart__amount-box">
+            <i class='bx bx-plus' ></i>
+          </span>
+        </div>
+
+        <div class="cart__form__row">
+          <label class="cart__form__title" for="phone">備註</label>
+          <textarea class="cart__form__input" id="note" name="note" rows="2" maxlength="50"></textarea>
+        </div>
+
+        <div class="cart__prices">
+          <div class="cart__prices-item">1 人次</div>
+          <div class="cart__prices-total">HK$2,480</div>
+        </div>
+        <button class="button home__button" type="submit" disabled>確認付款</button>
+      </form> 
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__img-bg course1_img_bg"></div>
+
+        <div class="home__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="home__social-link">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="home__social-link">
+            Instagram
+          </a>
+        </div>
+
+        <div class="home__data">
+          <h1 class="home__title">
+            入門班：基本機械機芯
+          </h1>
+          <p class="home__description course__description">
+            <h4 class="home__description__title">課程內容</h4>
+            <ul class="introduce__list-d">
+              <li>基本機械機芯結構及運作原理</li>
+              <li>基本錶匠工具認識及運用</li>
+              <li>基本機械機芯裝拆</li>
+              <li>問題探討及討論</li>
+            </ul>
+            <h4 class="home__description__title">上課時間</h4>
+            <p>約 4 小時（上午或下午時段）</p>
+          </p>
+          <span class="home__price"><br/><em>二人同行，$1,980 / 位</em></span>
+
+          <div class="home__btns">
+            <a href="#" class="button button--grey button--small">
+              HK$2,480 / 位
+            </a>
+            <button class="button home__button" id="cart-shop">立即報名</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTMONIAL -->
+    <section class="testimonial section container">
+      <div class="testimonial__container grid">
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
+
+            <div class="testimonial__card swiper-slide">
+              <div class="testimonial__quote">
+                <i class='bx bxs-quote-alt-left' ></i>
+              </div>
+
+              <p class="testimonial__description">
+                過程生動有趣，亦讓你休息，不會強行推進你的進度。在繁忙的都市中，這裡能讓大家暫時拋開煩惱，專心於自己的興趣中。
+              </p>
+
+              <h3 class="testimonial__date">June 3. 2018</h3>
+
+              <div class="testimonial__perfil">
+                <img src="assets/img/courses/testimonial_2.jpg" alt="" class="testimonial__perfil-img">
+
+                <div class="testimonial__perfil-data">
+                  <span class="testimonial__perfil-name">Heidi Françoise Shiu</span>
+                  <span class="testimonial__perfil-detail">上班族</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <div class="testimonial__quote">
+                <i class='bx bxs-quote-alt-left' ></i>
+              </div>
+
+              <p class="testimonial__description">
+                每一項組裝步驟都清楚示範並解釋原理及要訣，使本人獲益良多。
+              </p>
+
+              <h3 class="testimonial__date">February 18. 2017</h3>
+
+              <div class="testimonial__perfil">
+                <img src="assets/img/courses/testimonial_3.jpg" alt="" class="testimonial__perfil-img">
+
+                <div class="testimonial__perfil-data">
+                  <span class="testimonial__perfil-name">Samantha Poon</span>
+                  <span class="testimonial__perfil-detail">運動家</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <div class="testimonial__quote">
+                <i class='bx bxs-quote-alt-left' ></i>
+              </div>
+
+              <p class="testimonial__description">
+                強烈推薦給任何對機械手錶有興趣的人，活動內容絕不馬虎。
+                學習從頭拆卸，清潔，滴油，並重新裝砌一隻手錶。老師以一對一方式進行活動。
+              </p>
+
+              <h3 class="testimonial__date">June 15. 2019</h3>
+
+              <div class="testimonial__perfil">
+                <img src="assets/img/courses/testimonial_1.jpg" alt="" class="testimonial__perfil-img">
+
+                <div class="testimonial__perfil-data">
+                  <span class="testimonial__perfil-name">Ryan Fung</span>
+                  <span class="testimonial__perfil-detail">機械錶愛好者</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="swiper-button-next">
+            <i class='bx bx-right-arrow-alt'></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class='bx bx-left-arrow-alt' ></i>
+          </div>
+        </div>
+
+        <div class="testimonial__images">
+          <div class="testimonial__square"></div>
+          <img src="assets/img/courses/course.jpg" alt="" class="testimonial__img">
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter section container">
+      <div class="newsletter__bg grid">
+        <div>
+          <h2 class="newsletter__title">
+            訂閱我們的<br> 最新消息
+          </h2>
+          <p class="newsletter__description">
+            想收到機械錶工藝坊有關機械錶的最新消息及活動資訊，請立即訂閱我們的機械錶電子通訊。你可隨時取消訂閱，我們將根據私隱政策保障你的個人資料。 
+          </p>
+        </div>
+        <form action="" class="newsletter__subscribe">
+          <input type="email" placeholder="輸入電子郵件" class="newsletter__input">
+          <button class="button">
+            訂閱
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <h3 class="footer__title">聯絡我們</h3>
+        <ul class="footer__list">
+          <li>地址：香港中環皇后大道中58-62號振邦大廈604室</li>
+          <li>電郵：<a href="mailto: hkwatch@hkwatch.org" class="footer__link">hkwatch@hkwatch.org</a></li>
+          <li>電話：<a href="tel: +85225233232" class="footer__link">+852 25233232</a></li>
+          <li>傳真：<a href="tel: +85228684485" class="footer__link">+852 28684485</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">相關網站</h3>
+        <ul class="footer__links">
+          <li>
+            <a href="https://www.ivdc.edu.hk/ivdc/html/tc/courses/course_detail.php?id=14442" class="footer__link" target="_blank">機械機芯結構證書</a>
+          </li>
+          <li>
+            <a href="https://www.hkwatch.org/" class="footer__link" target="_blank">香港鐘錶業總會</a>
+          </li>
+          <li>
+            <a href="https://www.wostep.ch/en" class="footer__link" target="_blank">Wostep Foundation</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">社群媒體</h3>
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-facebook' ></i>
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <span class="footer__copy">機械錶工藝坊 &#169; All rights reserved</span>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+  </a>
+
+  <!-- SWIPER JS -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

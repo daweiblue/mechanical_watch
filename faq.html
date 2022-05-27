@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+
+  <!-- BOXICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>機械錶工藝坊</title>
+</head>
+<body>
+  <!-- HEADER -->
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <i class='bx bxs-watch nav__logo-icon'></i> 機械錶工藝坊
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#introduce" class="nav__link">淺談機械錶</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#courses" class="nav__link">裝嵌課程</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#repair" class="nav__link">維修服務</a>
+          </li>
+          <li class="nav__item">
+            <a href="faq.html" class="nav__link active-link">有問有答</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x' ></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+        <div class="nav__shop" id="cart-shop">
+          <i class='bx bx-shopping-bag' ></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-grid-alt' ></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CART -->
+  <div class="cart" id="cart">
+    <i class='bx bx-x cart__close' id="cart-close"></i>
+
+    <h2 class="cart__title-center">My Cart</h2>
+
+    <div class="cart__container">
+
+      <article class="cart__card">
+        <div class="cart__box">
+          <img src="assets/img/featured1.png" alt="" class="cart__img">
+        </div>
+
+        <div class="cart__details">
+          <h3 class="cart__title">Jazzmaster</h3>
+          <span class="cart__price">$1050</span>
+
+          <div class="cart__amount">
+            <div class="cart__amount-content">
+              <span class="cart__amount-box">
+                <i class='bx bx-minus' ></i>
+              </span>
+
+              <span class="cart__amount-number">1</span>
+
+              <span class="cart__amount-box">
+                <i class='bx bx-plus' ></i>
+              </span>
+            </div>
+
+            <i class='bx bx-trash-alt cart__amount-trash'></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart__card">
+        <div class="cart__box">
+          <img src="assets/img/featured3.png" alt="" class="cart__img">
+        </div>
+
+        <div class="cart__details">
+          <h3 class="cart__title">Rose Gold</h3>
+          <span class="cart__price">$850</span>
+
+          <div class="cart__amount">
+            <div class="cart__amount-content">
+              <span class="cart__amount-box">
+                <i class='bx bx-minus' ></i>
+              </span>
+
+              <span class="cart__amount-number">1</span>
+
+              <span class="cart__amount-box">
+                <i class='bx bx-plus' ></i>
+              </span>
+            </div>
+
+            <i class='bx bx-trash-alt cart__amount-trash'></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart__card">
+        <div class="cart__box">
+          <img src="assets/img/new1.png" alt="" class="cart__img">
+        </div>
+
+        <div class="cart__details">
+          <h3 class="cart__title">Longines Rose</h3>
+          <span class="cart__price">$980</span>
+
+          <div class="cart__amount">
+            <div class="cart__amount-content">
+              <span class="cart__amount-box">
+                <i class='bx bx-minus' ></i>
+              </span>
+
+              <span class="cart__amount-number">1</span>
+
+              <span class="cart__amount-box">
+                <i class='bx bx-plus' ></i>
+              </span>
+            </div>
+
+            <i class='bx bx-trash-alt cart__amount-trash'></i>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="cart__prices">
+      <div class="cart__prices-item">3 items</div>
+      <div class="cart__prices-total">$2880</div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__img-bg fqa_img_bg"></div>
+
+        <div class="home__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="home__social-link">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="home__social-link">
+            Instagram
+          </a>
+        </div>
+
+        <div class="home__data">
+          <h1 class="home__title">
+            有問有答
+          </h1>
+          <p class="home__description">
+            以下部分解答了有關機械錶的一些最常見問題。
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- INTRODUCE -->
+    <section class="introduce section fqa__section container" id="introduce">
+      <div class="introduce__container">
+        
+        <h2 class="section__title introduce__section-title">
+          常見問題
+        </h2>
+
+        <div class="collapsible__container">
+          <div class="collapsible__data">
+            <button class="collapsible">如何確定我購買的是正品腕錶？</button>
+            <div class="content">
+              <p>遵循如下步驟可以確定您購買的是正宗腕錶：只要在指定經銷商處購買腕錶，您將獲得壹張信用卡大小的保修卡，完整填寫 8 位數序列號、腕錶編號﹑購買日期以及經銷商的完整名稱和地址。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">計時錶（CHRONOGRAPH）與瑞士官方天文台認證腕錶（CHRONOMETER）有何區別？</button>
+            <div class="content">
+              <p>計時錶（CHRONOGRAPH）帶有顯示時、分和秒的指針，同時帶有測定逝去時間的機械裝置，通過中央計時秒針顯示，可以記錄到秒，並且具有分鍾和小時累加計時（非必定）。</p>
+              <p>瑞士官方天文台認證腕錶（CHRONOMETER）是指機芯成功通過COSC（瑞士官方天文台）不同角度與溫度下的精確度測試後，獲得該機構正式頒發等級證書的腕錶。通過這些測試至少需要 15 天時間。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">自動上鏈機芯與手動上鏈機芯有何區別？</button>
+            <div class="content">
+              <p>自動上鏈機芯與手動上鏈機芯的區別在於上鏈方式的不同。手動上鏈腕錶需要每天人工上鏈，而自動上鏈腕錶則具有內部摩打，利用手腕的運動來自動上鏈。自動上鏈腕錶通常具有至少 40 小時的動力儲存，即使不佩戴手錶，仍然能夠備有足夠的能量儲存以保持穩定的運行。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">有關腕錶的售價？</button>
+            <div class="content">
+              <p>腕錶價格受多種因素影響而不盡相同，例如所選用的材質、複雜功能或發行數量。如今，在名錶各語種網站上，您可以查看所列出各款腕錶的價格。當您在線浏覽壹款腕錶時，只要點擊“顯示價格”按鈕便可以查看您所在地區這款腕錶的售價。不過，若您因故未能獲取價格信息，我們建議您前往離您最近的專賣店或官方授權經銷商咨詢，確保您掌握准確無誤的最新價格信息。您還會獲得有關各系列腕錶産品的設計、材質和技術細節的專業建議與信息。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">對鎳過敏的人士是否可以佩戴精鋼腕錶？</button>
+            <div class="content">
+              <p>爲避免這壹問題，名錶選用的所有物質均經過多項嚴格測試。名錶采用的精鋼材料不含鎳，此元素會透過金屬與皮膚接觸造成過敏反應。我們采用的精鋼品質極其穩定，因而不會釋放鎳元素，對於金屬過敏人士十分安全。除非是那些對精鋼特別敏感的人士，例如無法使用精鋼炊具和餐具的人士。在這種情況下，我們建議您選購由钛金屬制造的手錶。</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section__title introduce__section-title">
+          錶的運作
+        </h2>
+
+        <div class="collapsible__container">
+          <div class="collapsible__data">
+            <button class="collapsible">計時腕錶上的按鈕具有什麽功能？</button>
+            <div class="content">
+              <p>這些按鈕可啓動或停止腕錶計時功能，並可將計時指針歸零。壹般而言，位於 2 點鍾位置的按鈕可以啓動和停止計時功能。在名錶産品中，部分計時錶具備單壹按鈕。
+            </p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">自動上鏈機械腕錶的動力儲存爲多長時間，如何運作？</button>
+            <div class="content">
+              <p>自動上鏈機械腕錶的運行取決於佩戴者的手腕運動情況。在完全上鏈的狀態下，手錶的動力儲存通常介於 44 至 60 小時，這取決於機芯款式。</p>
+              <p>
+              因自動上鏈機械系統直接與佩戴者的手腕活動相關，10 至 12 個小時的佩戴足以産生至少 20 個小時的動力儲存，保證手錶夜間的正常運行。然而，在長達數天沒有佩戴的情況下，手錶的動力儲存會大大減少，我們建議您進行手工上鏈，將錶冠沿順時針方向轉動大約 15 圈，以保證手錶的正常運行。
+              </p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">爲何大多數腕錶變更日期的時間跨度持續 1.5 至 2 個小時？</button>
+            <div class="content">
+              <p>采用日期變更系統，使午夜時分進行的日期變更過程得以於清晰顯示，避免出現混淆。直至午夜 11 時 45 分，日期視窗仍可清楚顯示當天日期。至午夜時，當天日期完整顯示於日曆窗下方，而新的日期則顯示於日曆窗的上方。隨著新日期向下移動，前壹天的日期便被更替。此操作必須在淩晨 1 時 30 分之前完成。請避免在晚上 9 時到第二天淩晨 2 時之間手動調校日期，因爲該期間將進行自動日期變更。</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section__title introduce__section-title">
+          錶的保養
+        </h2>
+
+        <div class="collapsible__container">
+          <div class="collapsible__data">
+            <button class="collapsible">何爲定期保養？</button>
+            <div class="content">
+              <p>手錶同其它高度精密的儀器壹樣，需要定期保養才能保證完美的運行。顯然我們無法在此解釋定期保養的內容，因爲這完全取決於手錶的款式、氣候和佩戴者的保養情況。根據手錶的使用情況，定期保養的期限通常爲每隔 4 至 5 年。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">如何調校我的腕錶？</button>
+            <div class="content">
+              <p>您的腕錶能爲您持久提供卓越的計時功能。如果您對其中的部分功能或如何爲腕錶進行微調有任何問題，以下視頻指南將爲您作出清晰解釋。每段視頻指南均由名錶的腕錶專家提供，同時配合三維動畫，更加簡單易懂。這項使用簡便的新穎工具將爲您提供准確的信息，讓您充分了解腕錶的功能或如何完成必要的 調校。名錶視頻指南系列將隨新錶款同時推出。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">爲何不向用戶直接提供零配件？</button>
+            <div class="content">
+              <p>出於技術和質量上的原因，我們不向用戶直接提供零配件。設有全球服務，爲顧客提供專業服務，實現名錶的高品質標准。</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section__title introduce__section-title">
+          錶的誤差
+        </h2>
+
+        <div class="collapsible__container">
+          <div class="collapsible__data">
+            <button class="collapsible">石英腕錶的誤差爲多少？</button>
+            <div class="content">
+              <p>所有石英機芯的生産和協調都要經過著名的名錶工序並達到嚴格的品質標准。環境溫度可能影響石英機芯的精確度，出現每天介於 -0.5 和 +0.7 秒之間的誤差。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">計時腕錶的誤差爲多少？</button>
+            <div class="content">
+              <p>爲獲取瑞士官方天文台認證，機械機芯的日變化率必須介於平均每天 -4 / +6 秒之間，即精確度達 99‧99%，機械機芯可以達到的最高精確度。 機械機芯的精確度取決於每個佩戴者的習慣，並且可能發生變化。具有專業資格的制錶技師可以對手錶的誤差進行調校，直至達到每天介於 -1 到 +6 秒之間的名錶誤差標准。</p>
+            </div>
+          </div>
+          <div class="collapsible__data">
+            <button class="collapsible">其它機械腕錶的誤差爲多少？</button>
+            <div class="content">
+              <p>"大部分未經瑞士官方天文台認證的腕錶其平均誤差介於每天 -1 / +11 秒。 機械機芯的精確度取決於每個佩戴者的習慣，並且可能發生變化。具有專業資格的名錶制錶技師可以對手錶的誤差進行調校，以達到誤差標准。"</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter section container">
+      <div class="newsletter__bg grid">
+        <div>
+          <h2 class="newsletter__title">
+            訂閱我們的<br> 最新消息
+          </h2>
+          <p class="newsletter__description">
+            想收到機械錶工藝坊有關機械錶的最新消息及活動資訊，請立即訂閱我們的機械錶電子通訊。你可隨時取消訂閱，我們將根據私隱政策保障你的個人資料。 
+          </p>
+        </div>
+
+        <form action="" class="newsletter__subscribe">
+          <input type="email" placeholder="輸入電子郵件" class="newsletter__input">
+          <button class="button">
+            訂閱
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+
+      <div class="footer__content">
+        <h3 class="footer__title">聯絡我們</h3>
+
+        <ul class="footer__list">
+          <li>地址：香港中環皇后大道中58-62號振邦大廈604室</li>
+          <li>電郵：<a href="mailto: hkwatch@hkwatch.org" class="footer__link">hkwatch@hkwatch.org</a></li>
+          <li>電話：<a href="tel: +85225233232" class="footer__link">+852 25233232</a></li>
+          <li>傳真：<a href="tel: +85228684485" class="footer__link">+852 28684485</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">相關網站</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="https://www.ivdc.edu.hk/ivdc/html/tc/courses/course_detail.php?id=14442" class="footer__link" target="_blank">機械機芯結構證書</a>
+          </li>
+          <li>
+            <a href="https://www.hkwatch.org/" class="footer__link" target="_blank">香港鐘錶業總會</a>
+          </li>
+          <li>
+            <a href="https://www.wostep.ch/en" class="footer__link" target="_blank">Wostep Foundation</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">社群媒體</h3>
+
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-facebook' ></i>
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <span class="footer__copy">&#169; All rights reserved</span>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+  </a>
+
+  <!-- SWIPER JS -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+
+  <!-- BOXICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>機械錶工藝坊：機械錶維修服務</title>
+</head>
+<body>
+  <!-- HEADER -->
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <i class='bx bxs-watch nav__logo-icon'></i> 機械錶工藝坊
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="repair_1.html" class="nav__link active-link">基本錶維修</a>
+          </li>
+          <li class="nav__item">
+            <a href="repair_2.html" class="nav__link">複雜錶維修</a>
+          </li>
+          <li class="nav__item">
+            <a href="repair_3.html" class="nav__link">特殊錶維修</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x' ></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-grid-alt' ></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CART -->
+  <div class="cart" id="cart">
+    <i class='bx bx-x cart__close' id="cart-close"></i>
+
+    <h3 class="cart__title-center">預約「基本錶維修服務」</h3>
+
+    <div class="cart__container">
+
+      <form class="cart__form" action="">
+
+        <div class="cart__form__column">
+          <div class="cart__form__row">
+            <div class="cart__form__title">名字</div>
+            <input class="cart__form__input" type="text" id="fname" name="fname">
+          </div>
+          <div class="cart__form__row">
+            <div class="cart__form__title">姓氏</div>
+            <input class="cart__form__input" type="text" id="lname" name="lname">
+          </div>
+        </div>
+
+        <div class="cart__form__title">稱謂</div>
+        <div class="cart__form__radio">
+          <label for="mr">
+            <input type="radio" id="mr" name="title" value="mr"> 先生
+          </label>
+
+          <label for="ms">
+            <input type="radio" id="ms" name="title" value="ms"> 小姐 / 女士
+          </label>
+
+          <label for="other">
+            <input type="radio" id="other" name="title" value="other"> 其他
+          </label>
+        </div>
+
+        <div class="cart__form__row">
+          <div class="cart__form__title">聯絡電話</div>
+          <input class="cart__form__input" type="phone" id="phone" name="phone">
+        </div>
+
+        <div class="cart__form__title">預約時間</div>
+        <input class="cart__form__input" type="date" id="repairDate" name="repairDate">
+
+        <div class="cart__form__row">
+          <label class="cart__form__title" for="phone">維修內容</label>
+          <textarea class="cart__form__input" id="note" name="note" rows="2" maxlength="50"></textarea>
+        </div>
+
+        <div class="cart__prices">
+          <div class="cart__prices-item">維修服務</div>
+          <div class="cart__prices-total">價錢待定</div>
+        </div>
+        <button class="button home__button" type="submit" disabled>確認送出</button>
+      </form> 
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__img-bg repair_img_bg"></div>
+
+        <div class="home__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="home__social-link">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="home__social-link">
+            Instagram
+          </a>
+        </div>
+
+        <div class="home__data">
+          <h1 class="home__title">
+            基本錶維修服務
+          </h1>
+
+          <div class="repair__box">
+            <img src="/assets/img/repair/repair_1.png" alt="" class="repair__img">
+          </div>
+
+          <p class="home__description course__description">
+            <h4 class="home__description__title">服務範圍</h4>
+            <ul class="introduce__list-d">
+              <li>清洗、抺油、調整</li>
+            </ul>
+          </p>
+
+          <span class="home__price repair__price"><br/><em>$500</em></span>
+
+          <div class="home__btns">
+            <a href="#" class="button button--grey button--small">
+              HK$500 起
+            </a>
+            <button class="button home__button" id="cart-shop">預約維修</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter section container">
+      <div class="newsletter__bg grid">
+        <div>
+          <h2 class="newsletter__title">
+            訂閱我們的<br> 最新消息
+          </h2>
+          <p class="newsletter__description">
+            想收到機械錶工藝坊有關機械錶的最新消息及活動資訊，請立即訂閱我們的機械錶電子通訊。你可隨時取消訂閱，我們將根據私隱政策保障你的個人資料。 
+          </p>
+        </div>
+        <form action="" class="newsletter__subscribe">
+          <input type="email" placeholder="輸入電子郵件" class="newsletter__input">
+          <button class="button">
+            訂閱
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <h3 class="footer__title">聯絡我們</h3>
+        <ul class="footer__list">
+          <li>地址：香港中環皇后大道中58-62號振邦大廈604室</li>
+          <li>電郵：<a href="mailto: hkwatch@hkwatch.org" class="footer__link">hkwatch@hkwatch.org</a></li>
+          <li>電話：<a href="tel: +85225233232" class="footer__link">+852 25233232</a></li>
+          <li>傳真：<a href="tel: +85228684485" class="footer__link">+852 28684485</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">相關網站</h3>
+        <ul class="footer__links">
+          <li>
+            <a href="https://www.ivdc.edu.hk/ivdc/html/tc/courses/course_detail.php?id=14442" class="footer__link" target="_blank">機械機芯結構證書</a>
+          </li>
+          <li>
+            <a href="https://www.hkwatch.org/" class="footer__link" target="_blank">香港鐘錶業總會</a>
+          </li>
+          <li>
+            <a href="https://www.wostep.ch/en" class="footer__link" target="_blank">Wostep Foundation</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">社群媒體</h3>
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/s3workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-facebook' ></i>
+          </a>
+          <a href="https://www.instagram.com/explore/locations/1007393452692431/s3-workshop/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <span class="footer__copy">機械錶工藝坊 &#169; All rights reserved</span>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+  </a>
+
+  <!-- SWIPER JS -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
