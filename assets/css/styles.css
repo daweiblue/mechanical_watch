@@ -357,6 +357,14 @@ body.dark-theme {
   text-decoration: none;
 }
 
+.main__music {
+  text-align: center;
+}
+
+audio::-webkit-media-controls-enclosure {
+  background-color: #333;
+}
+
 /*== HOME ==*/
 .home__container {
   position: relative;
